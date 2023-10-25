@@ -72,7 +72,7 @@ for date in date_range:
         report_df = format_report(web_request)
 
         if report_df is not None:
-            output_directory = "./raw_data1"
+            output_directory = "./raw_data" #add your path to save raw data
 
             if not os.path.exists(output_directory):
                 os.makedirs(output_directory)
@@ -83,7 +83,7 @@ for date in date_range:
                 print('output folder already exists', output_directory)
                 print('===============================================')
 
-            file_name = f'Raw_Sessions_KSA_{start_date}.csv'
+            file_name = f'Raw_Sessions_{start_date}.csv'
             file_path = os.path.join(output_directory, file_name)
 
             if os.path.exists(file_path):
