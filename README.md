@@ -1,2 +1,5 @@
-# fetching_GA4_Data
+# How to retrieve Google Analytics 4 (GA4) data programmatically using Python and generate a variety of comprehensive reports:
 How to fetch GA4 data using python and create a ton of reports
+Within the 'utils' file, you will discover the primary code for extracting unprocessed GA4 data. This code enables you to generate an unlimited number of customized reports. To facilitate report creation, please refer to the official API schema documentation provided by Google Analytics at the following URL: https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema
+
+For added convenience and precision, you can assess the compatibility of dimensions and metrics by utilizing the following link: https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/ This resource will assist in ensuring that your data selection aligns seamlessly with your analytical objectives.
